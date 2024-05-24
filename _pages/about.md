@@ -1,22 +1,23 @@
 ---
 layout: about
 title: about
-permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+permalink: / 
+subtitle: Research Affiliate @ <a href='https://www.media.mit.edu/'>MIT Media Lab</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+
+Harmon Bhasin studies Computer Science & Economics at the University of Wisconsin-Madison. With a focus on machine learning, he's gained experience through coursework and as an undergraduate teaching assistant. Currently, he works with Sushmita Roy and Junjie Hu, conducting research in computational biology and natural language processing respectively. His goal is to purse a Ph.D. so that he can continue to research computational biology.
+
+I'm currently interested in the following
+
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
