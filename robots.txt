@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://harmonbhasin.github.io/sitemap.xml
+Sitemap: https://localhost:8080/sitemap.xml
