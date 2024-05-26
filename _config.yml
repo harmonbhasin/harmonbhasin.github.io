@@ -126,8 +126,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Left As An Exercise To The Reader # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: laaettr # blog_name will be displayed in your blog page
+blog_description: left as an exercise to the reader
 permalink: /blog/:year/:title/
 lsi: true # produce an index for related posts
 
@@ -162,8 +162,8 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+  - name: https://harmonbhasin.substack.com/
+    rss_url: https://harmonbhasin.substack.com/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -347,7 +347,7 @@ filtered_bibtex_keywords:
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3 # leave blank to always show all authors
+max_author_limit: 4 # leave blank to always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
