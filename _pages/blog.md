@@ -26,6 +26,7 @@ pagination:
   <div class="header-bar">
     <h1>{{ site.blog_name }}</h1>
     <h2>{{ site.blog_description }}</h2>
+    <p>Welcome to a blog that aims to embody the most beautiful yet annoying practice in theoretical mathematics. Just as mathematicians often leave the reader to complete proofs independently, I invite you to engage with the ideas presented here, to question, ponder, and explore further on your own. Beware of satire. Opinions are my own.  Currently under reconstruction!</p>
   </div>
   {% endif %}
 

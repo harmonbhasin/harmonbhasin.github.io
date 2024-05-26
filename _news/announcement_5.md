@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-10-15
+date: 2024-05-12
 inline: true
 related_posts: false
 ---
 
-My abstract was accepted into RECOMB/ISCB RSGDream and I will give a talk.
+Graduated from the University of Wisconsin-Madison, with a B.S. in Computer Science.

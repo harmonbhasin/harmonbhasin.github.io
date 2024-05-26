@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Welcome?
-date: 2024-05-05 15:09:00
+title: New Beginnings
+date: 2024-05-26 
 description: an example of a blog post with some code
 tags: formatting code
 categories: silly-posts

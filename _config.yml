@@ -10,10 +10,10 @@ email: harmonsbhasin@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A website all about Harmon.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and caffine.
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExamg1cWFvc3V0Z2x2enlhZjYzZzFpdWYwbHBseXk1MGhnanhmeXlsbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wytOWHXmRRkqY/giphy.gif" target="_blank">COFFEE</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://harmonbhasin.github.io # the base hostname & protocol for your site
 #url: https://localhost:8080 # the base hostname & protocol for your site

@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-05-12
+date: 2024-03-15
 inline: true
 related_posts: false
 ---
 
-Graduated from the University of Wisconsin-Madison, with a B.S. in Computer Science.
+First author **paper** accepted into the North American Chapter of the Association for Computational Linguistics (<a href='https://2024.naacl.org/' target="_blank">NAACL 2024</a>).

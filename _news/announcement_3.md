@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-03-15
+date: 2024-01-01
 inline: true
 related_posts: false
 ---
 
-My first paper was accepted into NAACL.
+Started working part-time as a research affiliate at MIT Media Lab under Kevin Esvelt.
