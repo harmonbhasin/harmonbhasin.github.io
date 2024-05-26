@@ -1,3 +1,4 @@
+#require 'rss'
 require 'feedjira'
 require 'httparty'
 require 'jekyll'
@@ -13,7 +14,17 @@ module ExternalPosts
           p "Fetching external posts from #{src['name']}:"
           xml = HTTParty.get(src['rss_url']).body
           return if xml.nil?
-          feed = Feedjira.parse(xml)
+
+          p xml
+
+          begin
+            feed = Feedjira.parse(xml)
+          rescue Feedjira::NoParserAvailable
+            p "No valid parser available for the feed at #{src['rss_url']}"
+            next
+          end
+
+          #feed = RSS:Parser.parse(xml,false)
           feed.entries.each do |e|
             p "...fetching #{e.url}"
             slug = e.title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
