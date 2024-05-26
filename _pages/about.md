@@ -1,7 +1,7 @@
 ---
 layout: about
 title: about
-permalink: / 
+permalink: /
 subtitle: Research Affiliate @ <a href='https://www.media.mit.edu/'>MIT Media Lab</a>
 
 profile:

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Delivered a poster at MMLS
+Delivered a poster at MMLS.
