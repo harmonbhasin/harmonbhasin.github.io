@@ -164,7 +164,6 @@ disqus_shortname: al-folio # put your disqus shortname
 external_sources:
   - name: harmonbhasin.substack.com
     rss_url: https://harmonbhasin.substack.com/feed
-    #rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
