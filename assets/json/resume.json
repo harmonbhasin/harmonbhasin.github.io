@@ -1,205 +1,235 @@
 {
   "basics": {
     "name": "Harmon Bhasin",
-    "label": "Research Affiliate",
+    "label": "ML + Bio",
     "image": "",
-    "email": "harmonsbhasin@gmail.com",
-    "phone": "(XXX) XXX-XXXX",
-    "url": "https://harm0n.com",
-    "summary": "Aspiring computational biologist",
+    "email": "harmon@cs.wisc.edu",
+    "phone": "",
+    "summary": "Exploring opportunities in machine learning and biology.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
       "countryCode": "US",
-      "region": "California"
+      "address": "United States"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "harmonbhasin",
+        "url": "https://www.linkedin.com/in/harmonbhasin/"
       }
     ]
   },
-  "work": [
+  "research": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "MIT Media Lab",
+      "position": "Research Affiliate",
+      "startDate": "2024-01-31",
+      "highlights": [],
+      "summary": "Metagenomics for early pathogen detection.",
+      "url": "https://www.linkedin.com/company/mit-media-lab/",
+      "advisor": "Kevin Esvelt"
+    },
+    {
+      "name": "Wisconsin Institute for Discovery",
+      "position": "Research Intern",
+      "startDate": "2022-09-30",
+      "endDate": "2024-05-31",
+      "highlights": [],
+      "summary": "Develop statistical machine learning methods to understand gene regulatory networks driving cellular functions in single cell omic datasets. Oral presentation at RSGDREAM 23, co-first author publication in preparation, and co-author publication in preparation.",
+      "url": "https://www.linkedin.com/company/wisconsin-institute-for-discovery/",
+      "advisor": "Sushmita Roy"
+    },
+    {
+      "name": "UW-Madison Computer Sciences",
+      "position": "Undergraduate Research Assistant",
+      "startDate": "2023-03-31",
+      "endDate": "2023-12-31",
+      "highlights": [],
+      "summary": "Analyzed the capabilities of in-context learning in Transformers.",
+      "url": "https://www.linkedin.com/school/uw-madison-computer-sciences/",
+      "advisor": "Junjie Hu"
+    },
+    {
+      "name": "Wisconsin School of Business",
+      "position": "Undergraduate Research Assistant",
+      "startDate": "2021-09-30",
+      "endDate": "2022-12-31",
+      "highlights": [],
+      "summary": "Assisted in clinical research surrounding how people evaluate their own knowledge, and others' knowledge, as well as the systematic mistakes they make in doing so.",
+      "url": "https://www.linkedin.com/school/wisconsin-school-of-business/",
+      "advisor": "Stav Atir"  
+    },
+    {
+      "name": "Informatics Skunkworks",
+      "position": "Undergraduate Research Assistant",
+      "startDate": "2022-01-31",
+      "endDate": "2022-08-31",
+      "highlights": [],
+      "summary": "Leveraged large language models to analyze the contents of scientific papers and extract sentences containing data on material sciences properties.",
+      "url": "https://www.linkedin.com/company/uwmadisonmse/",
+      "advisor": "Maciej Polak" 
     }
   ],
-  "volunteer": [
+  "work": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "SecureBio",
+      "position": "Contractor",
+      "startDate": "2024-01-31",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/secure-bio/"
+    },
+    {
+      "name": "Wisconsin Biosecurity Initiative ",
+      "position": "Co-Founder & President",
+      "startDate": "2023-01-31",
+      "endDate": "2024-05-31",
+      "highlights": [],
+      "summary": "Develop an organization that facilitates the learning of biosecurity for undergraduate and graduate students through reading groups, research projects, speaker events, and journal clubs.",
+      "url": "https://www.linkedin.com/company/wisconsin-biosecurity-initiative/",
+      "location": "Madison, Wisconsin, United States"
+    },
+    {
+      "name": "Bolic",
+      "position": "Co-Founder & CEO",
+      "startDate": "2021-12-31",
+      "endDate": "2023-02-28",
+      "highlights": [],
+      "summary": "Created a startup that encouraged people to attend the gym regularly by utilizing personalized text messages created by large language models that interfaced with client workout plans.",
+      "url": "https://www.linkedin.com/company/bolic/",
+      "location": "Madison, Wisconsin, United States"
+    },
+    {
+      "name": "Vendall LLC",
+      "position": "Co-Founder & CTO",
+      "startDate": "2021-09-30",
+      "endDate": "2022-08-31",
+      "highlights": [],
+      "summary": "Created a startup that allowed brick and mortar businesses to have online takeout options, developing a mobile application.",
+      "location": "Madison, Wisconsin, United States"
+    },
+    {
+      "name": "Objectseek, Inc.",
+      "position": "Junior Software Engineer",
+      "startDate": "2021-06-30",
+      "endDate": "2021-11-30",
+      "highlights": [],
+      "summary": "Automated form testing for jameshardie.com and jameshardiepro.com sites using UIlicious.",
+      "url": "https://www.linkedin.com/company/objectseek-inc./",
+      "location": "Madison, Wisconsin, United States"
+    },
+    {
+      "name": "Objectseek, Inc.",
+      "position": "Software Engineer Intern",
+      "startDate": "2020-05-31",
+      "endDate": "2020-08-31",
+      "highlights": [],
+      "summary": "Created new features for Offer Input Tool (OIT), a web application that allows marketers to create new offers, using React and NestJS while leveraging Typescript and NodeJS.",
+      "url": "https://www.linkedin.com/company/objectseek-inc./",
+      "location": "Schamburg, Illinois, United States"
+    }
+  ],
+    "publications": [
+    {
+      "name": "How does Multi-Task Training Affect Transformer In-Context Capabilities? Investigations with Function Classes",
+      "publisher": "In Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics 2024",
+      "releaseDate": "2024-04-04",
+      "summary": "Large language models (LLM) have recently shown the extraordinary ability to perform unseen tasks based on few-shot examples provided as text, also known as in-context learning (ICL). While recent works have attempted to understand the mechanisms driving ICL, few have explored training strategies that incentivize these models to generalize to multiple tasks. Multi-task learning (MTL) for generalist models is a promising direction that offers transfer learning potential, enabling large parameterized models to be trained from simpler, related tasks. In this work, we investigate the combination of MTL with ICL to build models that efficiently learn tasks while being robust to out-of-distribution examples. We propose several effective curriculum learning strategies that allow ICL models to achieve higher data efficiency and more stable convergence. Our experiments reveal that ICL models can effectively learn difficult tasks by training on progressively harder tasks while mixing in prior tasks, denoted as mixed curriculum in this work.",
+      "url": "https://arxiv.org/abs/2404.03558"
     }
   ],
   "education": [
     {
       "institution": "University of Wisconsin-Madison",
-      "location": "Wisconsin, United States of America",
-      "url": "https://www.uzh.ch/",
       "area": "Computer Science",
-      "studyType": "B.S.",
+      "studyType": "Bachelor of Science - BS",
       "startDate": "2020-08",
       "endDate": "2024-05",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "score": "",
+      "courses": [
+        "Comp Sci / ECE 252 - Introduction to Computer Engineering",
+        "Econ 301 - Intermediate Microeconomic Theory",
+        "Econ 302 - Intermediate Macroeconomic Theory",
+        "Comp Sci 537 - Introduction to Operating Systems",
+        "Comp Sci 576 - Introduction to Bioinformatics",
+        "Comp Sci 564 - Database Management Systems: Design and Implementation",
+        "Math 240 - Introduction to Discrete Mathematics",
+        "Comp Sci 577 - Introductions to Algorithms",
+        "Comp Sci / BMI 775 - Computational Network Biology",
+        "Comp Sci / ECE 524 - Introduction to Optimization"
+      ]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Sophomore Research Fellowship",
+      "date": "2022-05",
+      "awarder": "University of Wisconsin-Madison",
+      "summary": "•\tCollaborate with my research professor from Undergraduate Research Scholars in creating and conducting a research project based around Natural Language Processing in the field of psychology\n•\tSelected as 1 of 27 students to receive this grant out of all colleges in the University of Wisconsin-Madison\n•\tDedicate approximately 225 hours to this project with the expectation of presenting findings in the Spring of 2023"
+    },
+    {
+      "title": "Fiscal Challenge - 3rd Place",
+      "date": "2022-04",
+      "awarder": "Fiscal Challenge",
+      "summary": "• Assisted in the planning, research, and creation of the presentation for the 2022 Fiscal Challenge as one of six presentation members\n• Developed a budget plan in which the debt-to-GDP ratio was 83% by Q2 2051, 15% under what was expected of us\n• Proposed a solution through a 20 minute presentation with elaborate graphs and statistics\n• One of six teams that traveled to Washington, DC and defended our plans in front of a live panel of judges"
+    },
+    {
+      "title": "College Fed Challenge - Top 6",
+      "date": "2021-11",
+      "awarder": "Federal Reserve",
+      "summary": "• Assisted in the planning, research, and creation of the presentation for the 2021 College Fed Challenge as an alternate for the presentation team\n• Analyzed the current economic conditions for about 6 months through research papers and articles\n• Proposed a solution through a 15 minute presentation with elaborate graphs and statistics"
+    },
+    {
+      "title": "Department of Economics, Case Competition - 1st Place",
+      "date": "2021-11",
+      "awarder": "Filene Research Institute",
+      "summary": "• Created a solution to improve overdraft policies for credit unions, while preserving member satisfaction and keeping revenue up\n• Referenced papers from other universities to devise a policy\n• Delivered a 8-10 minute presentation with four other members"
+    },
+    {
+      "title": "Undergraduate Research Scholar",
+      "date": "2021-08",
+      "awarder": "University of Wisconsin-Madison",
+      "summary": ""
+    },
+    {
+      "title": "2021 Township of Palatine Service Award",
+      "date": "2021-12",
+      "awarder": "Palatine Township",
+      "summary": "• TOPS awards are given to people in the community who have done outstanding community service\n• I received this award due to my Eagle Project which consisted of making budget computers for underprivileged families in my community"
+    },
+    {
+      "title": "Eagle Scout",
+      "date": "2020-06",
+      "awarder": "Scouts of America",
+      "summary": "• Conceptualized personal community service project, fundraised over $1k from local businesses, coordinated logistics with my local township, and lead 5 volunteers in the building of 15 PCs that came with manuals using Raspberry Pis\n• Donated PCs to underprivileged families through my local township\n• Presented my Eagle project at the local township meetings with PowerPoint and speeches"
+    },
+    {
+      "title": "Illinois State Seal of Biliteracy",
+      "date": "2020-05",
+      "awarder": "State of Illinois",
+      "summary": "• Awarded for demonstrating high proficiency in reading, writing, and speaking German."
+    },
+    {
+      "title": "codeLinc 7.0 - 3rd place",
+      "awarder": "Lincoln Financial Group",
+      "summary": "• Utilized machine learning with custom surveys to create heat maps that the nonprofit Big Brothers Big Sisters of America could use to redirect resources\n• https://newsroom.lfg.com/lincoln-financial-announces-winners-for-codelinc.htm"
     }
   ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
+  "certificates": [],
+
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
+      "fluency": "Native Speaker",
+      "language": "English"
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor Sushmita Roy",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "fluency": "Professional Working",
+      "language": "German"
     },
     {
-      "name": "Professor Junjie Hu",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-    {
-      "name": "Professor Stav Atir",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "fluency": "Limited Working",
+      "language": "Hindi"
     }
   ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
-  ]
+  "interests": [],
+  "references": [],
+  "projects": []
 }

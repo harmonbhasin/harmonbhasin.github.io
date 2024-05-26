@@ -37,6 +37,16 @@ a.btncv:hover {
  * CV TIME_TABLE styles
  *****************************/
 
+p.advisor {
+  font-size: 0.7rem;
+  white-space: nowrap;
+}
+
+i.iconadvisor {
+  color: var(--global-theme-color);
+  font-size: 0.8rem;
+}
+
 p.location {
   font-size: 0.7rem;
   white-space: nowrap;

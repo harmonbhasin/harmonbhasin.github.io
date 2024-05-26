@@ -163,7 +163,8 @@ disqus_shortname: al-folio # put your disqus shortname
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
   - name: harmonbhasin.substack.com
-    rss_url: https://medium.com/@al-folio/feed
+    #rss_url: https://medium.com/@al-folio/feed
+    rss_url: https://harmonbhasin.substack.com/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -610,6 +611,7 @@ jekyll_get_json:
 jsonresume:
   - basics
   - work
+  - research
   - education
   - publications
   - projects
