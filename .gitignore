@@ -11,3 +11,8 @@ assets/libs/
 node_modules/
 vendor
 archive
+INSTALL.md
+README.md
+CUSTOMIZE.md
+FAQ.md
+CONTRIBUTING.md
