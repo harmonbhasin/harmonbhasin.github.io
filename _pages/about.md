@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Affiliate @ <a href='https://www.media.mit.edu/'>MIT Media Lab</a>
+subtitle: Research Affiliate @ <a href='https://www.media.mit.edu/'>MIT</a>
 
 profile:
   align: right
