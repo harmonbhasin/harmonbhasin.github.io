@@ -19,5 +19,52 @@
       url={https://arxiv.org/abs/2404.03558},
       html={https://arxiv.org/abs/2404.03558},
       code={https://github.com/harmonbhasin/curriculum_learning_icl},
-      selected={true}
+      selected={true},
+      presentation={false}
+}
+
+@article{bhasin2023single,
+      abbr={RSGDREAM},
+      title={Single cell orthogonal non-negative matrix tri-factorization for identification of cell type and state-specific gene expression programs}, 
+      author={Harmon Bhasin* and Spencer Halberg-Spencer* and Katherine P. Mueller and Junha Shin and Sunnie Grace McCalla and Elizabeth Capowski and David Gamm and Krishanu Saha and Sushmita Roy},
+      abstract={Single cell genomics allows researchers to capture high-dimensional omic profiles such as gene expression and accessibility at the individual cell level and has transformed our ability to study heterogeneous populations of cells from diverse tissue, disease, and developmental contexts. A first step in the analysis of such datasets is to define cell clusters and annotate them to determine the cell type and state composition. Existing approaches first define cell clusters followed by identification of differentially expressed genes to annotate these clusters. This two-step approach may not accurately capture gene expression programs that are important for cellular state and identity and is especially limited for less studied systems such as organoids.
+            To address this gap, we have developed single cell non-negative matrix tri-factorization (scONMTF) which allows for simultaneous identification of cell clusters and their associated gene programs. scONMTF identifies interpretable low-dimensional representations of cells each associated with multiple driver gene expression programs, thereby generalizing NMF which is restricted to a single program for each latent factor. 
+            We compared scONMTF to baseline NMF and the two-step clustering based approaches on simulated, published, and novel single cell RNA-seq (scRNA-seq) data. On simulated data, scONMTF outperforms NMF by being flexible in identifying many-to-many relationships that are otherwise missed by NMF, while maintaining high accuracy in recovering known clusters. We next applied scONMTF to a real scRNA-seq dataset for PBMCs with known cell type labels, which has been widely used for benchmarking scRNA-seq clustering methods. scONMTF outperformed NMF and Louvain clustering by identifying hematopoietic cell types and further captured shared gene expression programs relating similar cell types such as CD4+ T-cells and natural killer cells. We applied scONMTF to a multi-sample dataset from 2D and 3D in vitro organoid platforms of the human retina. While 2D organoids are more experimentally tractable, 3D organoids are expected to recapitulate the biology of human tissue more faithfully. Identification of gene expression programs that capture differences across these platforms could enable efficient production of organoids. Using scONMTF gene expression programs we find that the retinal cells in the 2D platform are developmentally less mature compared to those from the 3D platform. Regulators associated with these gene expression programs could help engineer 2D organoids with greater developmental maturity. Taken together, our results suggest that scONMTF is a powerful and flexible approach that can be applied to complex scRNA-seq datasets to identify informative gene expression programs across different contexts.},
+      journal={15th annual RECOMB/ISCB Conference on Regulatory & Systems Genomics with DREAM Challenges RSGDREAM 2023},
+      preview={cell.gif},
+      year={2023},
+      month={November},
+      selected={false},
+      presentation={true},
+      video={https://youtu.be/e_vVg2-RMaQ?feature=shared}
+}
+
+@article{bhasin2023ortho,
+      abbr={MMLS},
+      title={Orthogonal non-negative matrix tri-factorization with regularization for multi-omic analysis}, 
+      author={Harmon Bhasin and Spencer Halberg-Spencer and Katherine P. Mueller and Junha Shin and Sunnie Grace McCalla and Elizabeth Capowski and David Gamm and Krishanu Saha and Sushmita Roy},
+      abstract={Single-cell omic technologies, such as single cell RNA-sequencing (scRNA-seq), allow researchers to capture
+high-dimensional molecular profiles, such as gene expression, at the individual cell level. These technologies are
+revolutionizing our understanding of cellular composition of complex tissue at a previously unmatched scale. The
+novel modalities have allowed for the identification of new cell types, characterizing gene expression patterns related to disease states, and the elucidation of the mechanisms underlying cell differentiation. However, these datasets tend to be high-dimensional, with many thousands of cells and gene features, making the analysis of these data extremely challenging.
+
+In particular, a common first step in single cell omic data analysis is to define cell types of cell states which
+entails dimensionality reduction, followed by clustering and interpretation of cluster-specific genes for cell type
+annotation. Existing approaches for this task have used a variety of dimensionality reduction approaches such
+as principal components analysis (PCA) and non-negative matrix factorization (NMF). The limitation of these
+approaches is that the cluster-driving features, such as marker genes, are identified as a post-processing step. In this
+paper, we apply a different dimensionality reduction algorithm, orthogonal non-negative matrix tri-factorization
+(O-NMTF), that enables us to define the low-dimensional embedding and the marker genes of each cluster in
+a single step. The standard NMTF was first developed for the task of documentation classification. Since the
+introduction of this framework, NMTF has been mainly used in biological settings as a way of integrating different
+modalities. We extend NMTF to an orthogonal regularized framework that enables the lower dimensional
+embedding provided by NMTF to be used for clustering of sparse single cell datasets as well as the identification
+of marker genes.},
+      journal={Midwest Machine Learning Symposium},
+      preview={matrix.gif},
+      year={2023},
+      month={May},
+      selected={false},
+      presentation={true},
+      poster={MMLS_2023.pdf}
 }
