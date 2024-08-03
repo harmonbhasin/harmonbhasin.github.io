@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Delivered a poster at MMLS.
+Presented a poster at the Midwest Machine Learning Symposim ([MMLS 2023](https://midwest-ml.org/2023/)).

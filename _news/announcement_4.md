@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-First author **paper** accepted into the North American Chapter of the Association for Computational Linguistics (<a href='https://2024.naacl.org/' target="_blank">NAACL 2024</a>).
+First author **paper** accepted in the Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics ([NAACL 2024](https://2024.naacl.org/)).
