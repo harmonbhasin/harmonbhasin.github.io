@@ -162,9 +162,9 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: substack.com
+  #  - name: substack.com
     #rss_url: https://medium.com/@al-folio/feed
-    rss_url: https://harmonbhasin.substack.com/feed
+    #  rss_url: https://harmonbhasin.substack.com/feed
 
 # -----------------------------------------------------------------------------
 # Collections
