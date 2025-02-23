@@ -39,3 +39,4 @@ You can preview the production build with `npm run preview`.
 
 Function - https://joyofcode.xyz/sveltekit-markdown-blog
 Styling - https://www.jvp.design/blog/building-a-blog-with-sveltekit-tailwind-mdsvex
+https://www.okupter.com/blog/deploy-sveltekit-website-to-github-pages
