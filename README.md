@@ -37,6 +37,7 @@ You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
 
+## References
 Function - https://joyofcode.xyz/sveltekit-markdown-blog
 Styling - https://www.jvp.design/blog/building-a-blog-with-sveltekit-tailwind-mdsvex
-https://www.okupter.com/blog/deploy-sveltekit-website-to-github-pages
+Deploying - https://www.okupter.com/blog/deploy-sveltekit-website-to-github-pages
