@@ -17,19 +17,22 @@ I'd like to introduce three complementary approaches that are accelerating biolo
 	- *Solution*: Robotic systems can execute experiments with greater speed, precision, and reproducibility.
 	- *Learn more*:
 		- For beginners: Visit [Emerald Cloud Labs](https://www.emeraldcloudlab.com/) to see commercial lab automation in action.
-		- More rigorous: Read ["What is a Self-Driving Lab"](https://stefangolas.substack.com/p/what-is-a-self-driving-lab) to understand the integration of automation with experimental design.
+		- More rigorous: Read ["What is a Self-Driving Lab"](https://stefangolas.substack.com/p/what-is-a-self-driving-lab) to understand the integration of automation with experimental design. Below is a quote I found interesting:
+			> "Overall, the domains that make the most sense for a self-driving lab are ones where you can explore a very broad search space with a limited set of equipment and relatively inexpensive reagents, and where the domain of interest is feasible to model computationally."
 2. **AI Scientists**
 	- *Problem*: Hypothesis generation and experimental design require significant expertise and time.
 	- *Solution*: AI systems can generate hypotheses, design experiments, and prioritize research directions based on existing knowledge.
 	- *Learn more*: 
 		- For beginners: Explore [FutureHouse's](https://www.futurehouse.org/) approach to AI-augmented scientific discovery. 
-		- More rigorous: Read ["Empowering biomedical discovery with AI agents"](https://doi.org/10.1016/j.cell.2024.09.022) for a comprehensive overview of AI in research design.
+		- More rigorous: Read ["Empowering biomedical discovery with AI agents"](https://doi.org/10.1016/j.cell.2024.09.022) for a comprehensive overview of AI in research design. Below is a quote I found interesting:
+			> "A critical issue is the difficulty in distinguishing between correlation and causality. Current AI agents struggle with generating strong hypotheses, reasoning, and conducting experimental validations, tasks that typically require advanced AI systems (level 3 agents) or human intervention. Moreover, AI agents need improved interfaces to interact safely and effectively with experimental platforms. These platforms themselves face limitations in producing unbiased, AIready datasets that accurately capture the intra- and inter-variation inherent in biological systems. Such limitations hinder the generalization capabilities of AI agents, which rely on comprehensive and high-quality data to function optimally. The absence of data from high-throughput techniques can lead to AI agents forming false hypotheses or causing harm. This risk is exacerbated when AI agents work with small, biased biological datasets, which may be affected by issues like batch effects."
 3. **Virtual Cells**
 	- *Problem*: Biological experiments are costly, time-consuming, and limited by current understanding of cellular mechanisms. 
 	- *Solution*: AI models that simulate cellular processes allow researchers to run thousands of virtual experiments before confirming results in physical labs.
 	- *Learn more*:
 		- For beginners: Visit [Arc Institute's](https://arcinstitute.org/) website to see how they're advancing the idea of a virtual cell. 
-		- More rigorous: Read ["Toward AI-Driven Digital Organism: Multiscale Foundation Models for Predicting, Simulating and Programming Biology at All Levels"](https://doi.org/10.48550/arXiv.2412.06993) to understand multi-scale modeling approaches for cellular simulation.
+		- More rigorous: Read ["Toward AI-Driven Digital Organism: Multiscale Foundation Models for Predicting, Simulating and Programming Biology at All Levels"](https://doi.org/10.48550/arXiv.2412.06993) to understand multi-scale modeling approaches for cellular simulation. Below is a quote I found interesting:
+		> "It is our view that, a foundation model for biology—which can be a system of component FMs—needs to incorporate multiple types of data and biological constraints arising from different biological scales. Furthermore, such a system is more than just an agglomeration of modality-specific FMs, and must involve system-wide harmonization through nested or hierarchical representation prop agation, utilization, fine-tuning, or continual pretraining. It should also have the ability to connect different FM modules from the system, and provide a foundation to address more complex prediction, simulation, and reprogramming tasks arising from molecules, cells, organisms, and beyond."
 
 Before diving into these specific innovations, I plan to publish background posts that will help you understand the broader context of biological research. The depth of coverage for each topic may vary based on my own expertise and background, but my aim is to provide a solid foundation that makes cutting-edge developments more accessible to everyone.
 ## Why Now?
@@ -47,4 +50,4 @@ If you're interested in learning more about these topics or connecting with prof
 	- [Bits In Bio](https://www.bitsinbio.org/)
 	- [TechbioTransformers](https://x.com/techbi0?lang=en)
 
-If you have questions or would like to discuss these topics in more depth, feel free to [email me](mailto:harmonsbhasin@gmail.com).
+If you have questions or would like to discuss these topics in more depth, feel free to [email me](mailto:harmonsbhasin@gmail.com). **To stay updated on bleeding-edge developments in this field, follow me on [Twitter](https://x.com/harmonbhasin) where I regularly share the most innovative research and breakthroughs I encounter.**

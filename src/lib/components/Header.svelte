@@ -18,6 +18,15 @@
 						Blog
 					</a>
 			</li>
+			<li>
+					<a 
+						href="https://x.com/harmonbhasin" 
+						class="text-gray-700 hover:text-gray-900 transition-colors font-medium"
+						target="_blank"
+					>
+						Twitter
+					</a>
+			</li>
 		</ul>
 	</nav>
 </header>
