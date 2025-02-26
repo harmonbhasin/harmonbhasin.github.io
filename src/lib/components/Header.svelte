@@ -11,14 +11,12 @@
 				</a>
 			</li>
 			<li>
-				{#if false}
 					<a 
 						href="/blog" 
 						class="text-gray-700 hover:text-gray-900 transition-colors font-medium"
 					>
 						Blog
 					</a>
-				{/if}
 			</li>
 		</ul>
 	</nav>
