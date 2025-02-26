@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<title>{config.title}</title>
+	<title>Blog</title>
 </svelte:head>
 
 <section class="max-w-2xl mx-auto px-4 py-12">

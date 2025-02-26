@@ -2,7 +2,6 @@
 	import { formatDate } from '$lib/utils'
 
 	let { data } = $props()
-	console.log(data)
 </script>
 
 <svelte:head>
@@ -25,7 +24,7 @@
 		{/each}
 	</div>
 
-	<div class="prose prose-lg max-w-none">
+	<div class="prose">
 		<data.content />
 	</div>
 </article>
