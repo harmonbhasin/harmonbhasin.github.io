@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://harm0n.com/sitemap.xml 
