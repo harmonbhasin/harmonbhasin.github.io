@@ -50,4 +50,4 @@ If you're interested in learning more about these topics or connecting with prof
 	- [Bits In Bio](https://www.bitsinbio.org/)
 	- [TechbioTransformers](https://x.com/techbi0?lang=en)
 
-If you have questions or would like to discuss these topics in more depth, feel free to [email me](mailto:harmonsbhasin@gmail.com). **To stay updated on bleeding-edge developments in this field, follow me on [Twitter](https://x.com/harmonbhasin) where I regularly share the most innovative research and breakthroughs I encounter.**
+If you have questions or would like to discuss these topics in more depth, feel free to [email me](mailto:harmonsbhasin@gmail.com). **To stay updated on bleeding-edge developments in this field, follow me on [Twitter](https://x.com/_harm0n) where I regularly share the most innovative research and breakthroughs I encounter.**
