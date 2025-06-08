@@ -7,7 +7,7 @@
     <a href="https://github.com/harmonbhasin" target="_blank" rel="noopener noreferrer" class="flex items-center text-gray-700 hover:text-gray-900">
         <Github />
     </a>
-    <a href="https://x.com/harmonbhasin" target="_blank" rel="noopener noreferrer" class="flex items-center text-gray-700 hover:text-gray-900">
+    <a href="https://x.com/_harm0n" target="_blank" rel="noopener noreferrer" class="flex items-center text-gray-700 hover:text-gray-900">
         <Twitter />
     </a>
     <a href="https://bsky.app/profile/harm0n.bsky.social" target="_blank" rel="noopener noreferrer" class="flex items-center text-gray-700 hover:text-gray-900">

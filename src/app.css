@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@theme {
+  --color-primary: #3B82F6;
+  --color-secondary: #10B981;
+  --color-accent: #F59E0B;
+  --color-text: #1F2937;
+  --color-background: #fcfcfc;
+}
+
 .prose {
 	max-width: 100%;
 	margin: 0;
@@ -14,7 +22,6 @@
 	font-size: 1.5rem;
 	margin-bottom: 0.5rem;
 }
-
 
 .prose a {
 	color: #000;
