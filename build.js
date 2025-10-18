@@ -71,12 +71,22 @@ async function generateBlogList(posts, template) {
     `<button class="category-filter px-3 py-1 rounded-full text-sm border hover:bg-gray-100" data-category="${cat}">${cat}</button>`
   ).join('\n          ');
 
-  const postsHTML = posts.map(post => `
+  const postsHTML = posts.map(post => {
+    const isExternal = post.link && post.external;
+    const postUrl = isExternal ? post.link : `/blog/${post.slug}`;
+    const linkTarget = isExternal ? ' target="_blank" rel="noopener noreferrer"' : '';
+    const externalIcon = isExternal ? ' <svg class="inline-block w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>' : '';
+    const externalBadge = isExternal ? '<span class="inline-block bg-blue-100 text-blue-800 rounded-full px-3 py-1 text-xs font-semibold mr-2">External</span>' : '';
+
+    return `
     <article class="post-item mb-8 pb-8 border-b" data-categories="${post.categories.join(',')}">
       <h2 class="text-2xl font-bold mb-2">
-        <a href="/blog/${post.slug}" class="hover:text-blue-600">${post.title}</a>
+        <a href="${postUrl}"${linkTarget} class="hover:text-blue-600">${post.title}${externalIcon}</a>
       </h2>
-      <time class="text-gray-600 text-sm">${formatDate(post.date)}</time>
+      <div class="flex items-center gap-2 mb-2">
+        <time class="text-gray-600 text-sm">${formatDate(post.date)}</time>
+        ${externalBadge}
+      </div>
       <div class="mt-2">
         ${post.categories.map(cat =>
           `<span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm mr-2">${cat}</span>`
@@ -84,7 +94,8 @@ async function generateBlogList(posts, template) {
       </div>
       <p class="mt-3 text-gray-700">${post.description}</p>
     </article>
-  `).join('');
+  `;
+  }).join('');
 
   const html = template
     .replace('{{TITLE}}', 'Blog - Harmon Bhasin')
