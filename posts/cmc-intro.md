@@ -1,11 +1,13 @@
 ---
 title: "Code Meets Cell: Exploring the Frontier Where Computation is Transforming Biology"
-description: The start of a series exploring what I believe are the most promising developments in biological research.
+description: "The start of a series exploring what I believe are the most promising developments in biological research."
 date: '2025-02-26'
 categories:
-  - 'code-meets-cell'
+  - 'exploratory'
 published: true
 ---
+
+> **Note (October 2025)**: I originally planned this as a series, but decided not to move forward with additional posts. This introductory piece still provides a useful overview of computational approaches in biology.
 
 Biology is undergoing a computational revolution. As someone who has transitioned from studying computer science to researching bioinformatics and LLMs, and now works at a [company focused on pandemic detection](https://naobservatory.org/), I've witnessed the emergence of deep learning and technological advancements in biology. I'm convinced we're at the dawn of a new era in understanding living systems. This series will explore what I believe are the most promising developments.
 
