@@ -11,3 +11,6 @@ published: false
 ## Svelte
 
 Media inside the **static** folder is served from `/`.
+
+
+$ x = 5 $
