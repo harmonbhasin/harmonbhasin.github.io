@@ -7,10 +7,11 @@
     "build": "node build.js"
   },
   "dependencies": {
-    "marked": "^11.0.0",
-    "marked-katex-extension": "^5.0.0",
     "gray-matter": "^4.0.3",
-    "highlight.js": "^11.9.0"
+    "highlight.js": "^11.9.0",
+    "marked": "^11.0.0",
+    "marked-footnote": "^1.4.0",
+    "marked-katex-extension": "^5.0.0"
   },
   "devDependencies": {
     "serve": "^14.2.1"

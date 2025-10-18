@@ -1,43 +1,72 @@
-# sv
+# Harmon Bhasin's Personal Site
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A minimal static site generator built with vanilla JavaScript. Converts markdown blog posts to static HTML with zero framework dependencies.
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
+## Quick Start
 
 ```bash
-# create a new project in the current directory
-npx sv create
+# Install dependencies
+npm install
 
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
+# Build site
 npm run build
+
+# Preview locally
+npm run dev
 ```
 
-You can preview the production build with `npm run preview`.
+Visit `http://localhost:3000`
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## Project Structure
 
-## References
-Function - https://joyofcode.xyz/sveltekit-markdown-blog
-Styling - https://www.jvp.design/blog/building-a-blog-with-sveltekit-tailwind-mdsvex
-Deploying - https://www.okupter.com/blog/deploy-sveltekit-website-to-github-pages
+```
+├── build.js              # Build system (entire SSG)
+├── posts/*.md            # Blog posts (markdown + frontmatter)
+├── pages/*.md            # Static pages (about, etc.)
+├── templates/base.html   # HTML template
+├── public/               # Static assets
+└── dist/                 # Generated site (git-ignored)
+```
+
+## Writing Posts
+
+Create `posts/my-post.md`:
+
+```yaml
+---
+title: "Post Title"
+description: "Brief description"
+date: '2025-03-15'
+categories:
+  - 'category-name'
+published: true
+---
+
+Your content in **markdown**.
+```
+
+Run `npm run build` to generate HTML.
+
+## Features
+
+- Markdown to HTML conversion (marked)
+- LaTeX math rendering (KaTeX)
+- Syntax highlighting (highlight.js)
+- Client-side search and filtering
+- Tailwind CSS via CDN
+- Sub-second build times
+
+## Deployment
+
+Deploys to Vercel automatically on push to main branch.
+
+## Architecture
+
+See `LLM.md` for comprehensive architectural documentation.
+
+## Dependencies
+
+- `marked` - Markdown parser
+- `gray-matter` - Frontmatter parsing
+- `marked-katex-extension` - Math rendering
+- `highlight.js` - Syntax highlighting

@@ -4,9 +4,11 @@ import { marked } from 'marked';
 import matter from 'gray-matter';
 import katex from 'marked-katex-extension';
 import hljs from 'highlight.js';
+import markedFootnote from 'marked-footnote';
 
 // Configure marked
 marked.use(katex());
+marked.use(markedFootnote());
 marked.use({
   highlight: (code, lang) => {
     if (lang && hljs.getLanguage(lang)) {
