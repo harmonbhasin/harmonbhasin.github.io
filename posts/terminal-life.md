@@ -1,5 +1,5 @@
 ---
-title: Life in the terminal can be enjoyable
+title: Life in the Terminal Can Be Enjoyable
 description: Customizations and tools I use in the terminal.
 date: '2025-10-22'
 categories:
@@ -9,7 +9,7 @@ published: true
 
 I live in my terminal. Remote servers are what got me here, but I now use it locally by choice — it's functional and enjoyable. With a bit of customization and better tooling, you can enjoy it too. Here's what worked for me.
 
-*Inspired by similar posts by [Simon Boehm](https://siboehm.com/articles/22/tools-i-like) and [Eugene Yan](https://eugeneyan.com/writing/mac-setup/).*
+*Inspired by similar posts by [Simon Boehm](https://siboehm.com/articles/22/tools-I-like) and [Eugene Yan](https://eugeneyan.com/writing/mac-setup/).*
 
 ## Customization
 

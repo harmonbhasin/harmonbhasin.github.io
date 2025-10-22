@@ -1,1 +1,2 @@
-@docs/LLM.md has the architecture of this.
+- @docs/LLM.md has the architecture of this.
+- We use "strict title case" for blog titles

@@ -1,5 +1,5 @@
 ---
-title: "Code Meets Cell: Exploring the Frontier Where Computation is Transforming Biology"
+title: "Code Meets Cell: Exploring the Frontier Where Computation Is Transforming Biology"
 description: "The start of a series exploring what I believe are the most promising developments in biological research."
 date: '2025-02-26'
 categories:
