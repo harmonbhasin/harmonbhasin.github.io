@@ -19,10 +19,34 @@ marked.use({
 });
 
 const SITE_URL = "https://harm0n.com";
+// ============================================================================
+// SOCIAL MEDIA / OPEN GRAPH CONFIGURATION
+// ============================================================================
+// Change DEFAULT_OG_IMAGE to customize the image shown when sharing your site
+// This image should be:
+//   - 1200x630 pixels (recommended for Twitter/Facebook)
+//   - Placed in the public/ folder
+//   - Named og-image.png (or update the filename below)
+const DEFAULT_OG_IMAGE = `${SITE_URL}/og-image.png`;
 
 // Helper: Read template file
 async function readTemplate(name) {
   return await fs.readFile(`templates/${name}.html`, "utf-8");
+}
+
+// Helper: Replace meta tags in template
+function replaceMetaTags(
+  template,
+  { title, description, url, type = "website", image = DEFAULT_OG_IMAGE },
+) {
+  return template
+    .replace("{{TITLE}}", title)
+    .replace("{{DESCRIPTION}}", description)
+    .replace("{{OG_TYPE}}", type)
+    .replace("{{OG_URL}}", url)
+    .replace("{{OG_TITLE}}", title)
+    .replace("{{OG_DESCRIPTION}}", description)
+    .replace("{{OG_IMAGE}}", image);
 }
 
 // Helper: Get all posts
@@ -56,7 +80,7 @@ async function getPosts() {
 function formatDate(dateString) {
   // Parse date string as YYYY-MM-DD in local timezone (not UTC)
   // This prevents timezone offset issues that can shift the date
-  const [year, month, day] = dateString.split('-').map(Number);
+  const [year, month, day] = dateString.split("-").map(Number);
   const date = new Date(year, month - 1, day); // month is 0-indexed
   return date.toLocaleDateString("en-US", {
     year: "numeric",
@@ -114,9 +138,7 @@ async function generateBlogList(posts, template) {
     })
     .join("");
 
-  const html = template.replace("{{TITLE}}", "Blog - Harmon Bhasin").replace(
-    "{{CONTENT}}",
-    `
+  const content = `
       <div class="max-w-3xl mx-auto px-4 py-8">
         <div class="prose prose-lg max-w-none">
           <h1>Blog</h1>
@@ -147,19 +169,25 @@ async function generateBlogList(posts, template) {
           No posts found matching your search.
         </div>
       </div>
-    `,
-  );
+    `;
+
+  // ============================================================================
+  // BLOG LISTING PAGE METADATA - Change this to customize social media previews
+  // ============================================================================
+  const html = replaceMetaTags(template, {
+    title: "Blog - Harmon Bhasin",
+    description:
+      "Blog posts about computational biology, biosecurity, and machine learning by Harmon Bhasin",
+    url: `${SITE_URL}/blog`,
+    type: "website",
+  }).replace("{{CONTENT}}", content);
 
   await fs.writeFile("dist/blog/index.html", html);
 }
 
 // Generate individual post page
 async function generatePost(post, template) {
-  const html = template
-    .replace("{{TITLE}}", `${post.title} - Harmon Bhasin`)
-    .replace(
-      "{{CONTENT}}",
-      `
+  const content = `
       <article class="max-w-3xl mx-auto px-4 py-8">
         <header class="mb-8">
           <h1 class="text-4xl font-bold mb-4">${post.title}</h1>
@@ -177,8 +205,23 @@ async function generatePost(post, template) {
           ${post.html}
         </div>
       </article>
-    `,
-    );
+    `;
+
+  // ============================================================================
+  // INDIVIDUAL BLOG POST METADATA - Change this to customize social previews
+  // ============================================================================
+  // Each post's metadata comes from:
+  //   - title: From post frontmatter
+  //   - description: From post frontmatter (falls back to generic message)
+  //   - image: Custom per-post (add 'ogImage: /path/to/image.png' in frontmatter)
+  //            or uses DEFAULT_OG_IMAGE
+  const html = replaceMetaTags(template, {
+    title: `${post.title} - Harmon Bhasin`,
+    description: post.description || `Read ${post.title} by Harmon Bhasin`,
+    url: `${SITE_URL}/blog/${post.slug}`,
+    type: "article",
+    image: post.ogImage || DEFAULT_OG_IMAGE,
+  }).replace("{{CONTENT}}", content);
 
   await fs.mkdir(`dist/blog/${post.slug}`, { recursive: true });
   await fs.writeFile(`dist/blog/${post.slug}/index.html`, html);
@@ -210,12 +253,17 @@ async function generateStaticPages(template) {
     // Use default if file doesn't exist
   }
 
-  await fs.writeFile(
-    "dist/index.html",
-    template
-      .replace("{{TITLE}}", "Harmon Bhasin")
-      .replace("{{CONTENT}}", homeContent),
-  );
+  // ============================================================================
+  // HOME PAGE METADATA - Change this to customize your homepage social preview
+  // ============================================================================
+  const homeHtml = replaceMetaTags(template, {
+    title: "Harmon Bhasin",
+    description: "Tinkering in comp bio, and ml.",
+    url: SITE_URL,
+    type: "website",
+  }).replace("{{CONTENT}}", homeContent);
+
+  await fs.writeFile("dist/index.html", homeHtml);
 
   // About page (read from pages/about.md if exists, otherwise use default)
   let aboutContent = `
@@ -242,13 +290,18 @@ async function generateStaticPages(template) {
     // Use default if file doesn't exist
   }
 
+  // ============================================================================
+  // ABOUT PAGE METADATA - Change this to customize your about page social preview
+  // ============================================================================
+  const aboutHtml = replaceMetaTags(template, {
+    title: "About - Harmon Bhasin",
+    description: "About Harmon Bhasin",
+    url: `${SITE_URL}/about`,
+    type: "website",
+  }).replace("{{CONTENT}}", aboutContent);
+
   await fs.mkdir("dist/about", { recursive: true });
-  await fs.writeFile(
-    "dist/about/index.html",
-    template
-      .replace("{{TITLE}}", "About - Harmon Bhasin")
-      .replace("{{CONTENT}}", aboutContent),
-  );
+  await fs.writeFile("dist/about/index.html", aboutHtml);
 }
 
 // Generate sitemap
