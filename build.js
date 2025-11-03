@@ -40,13 +40,13 @@ function replaceMetaTags(
   { title, description, url, type = "website", image = DEFAULT_OG_IMAGE },
 ) {
   return template
-    .replace("{{TITLE}}", title)
-    .replace("{{DESCRIPTION}}", description)
-    .replace("{{OG_TYPE}}", type)
-    .replace("{{OG_URL}}", url)
-    .replace("{{OG_TITLE}}", title)
-    .replace("{{OG_DESCRIPTION}}", description)
-    .replace("{{OG_IMAGE}}", image);
+    .replaceAll("{{TITLE}}", title)
+    .replaceAll("{{DESCRIPTION}}", description)
+    .replaceAll("{{OG_TYPE}}", type)
+    .replaceAll("{{OG_URL}}", url)
+    .replaceAll("{{OG_TITLE}}", title)
+    .replaceAll("{{OG_DESCRIPTION}}", description)
+    .replaceAll("{{OG_IMAGE}}", image);
 }
 
 // Helper: Get all posts
