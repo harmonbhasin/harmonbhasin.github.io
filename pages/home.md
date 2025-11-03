@@ -1,4 +1,4 @@
-I work as the Co-Founder/CTO at [Mohi](https://www.trymohi.com/). Previously, I worked as a biosecurity researcher at [SecureBio](https://securebio.org/), working on the [Nucleic Acid Observatory (NAO)](https://naobservatory.org/).
+I work as the Co-Founder/CTO at a [Y Combinator](https://www.ycombinator.com/) backed startup. Previously, I worked as a biosecurity researcher at [SecureBio](https://securebio.org/), working on the [Nucleic Acid Observatory (NAO)](https://naobservatory.org/).
 
 Thinking about:
 
