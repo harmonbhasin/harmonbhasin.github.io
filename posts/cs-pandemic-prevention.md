@@ -69,15 +69,16 @@ We can't validate our results. We don't know what's in our samples. Biological v
 For structured guidance on entering biosecurity, I would start with ["Preventing catastrophic pandemics" by 80,000 hours](https://80000hours.org/problem-profiles/preventing-catastrophic-pandemics/). Below are technical resources relevant to this post's focus.
 
 ## Follow the field
- 
-People to follow (Twitter, blogs, [EA Forum](https://forum.effectivealtruism.org/?tab=biosecurity)):
+
+People to follow on Twitter, their personal blogs/Substacks, or the [EA Forum](https://forum.effectivealtruism.org/?tab=biosecurity):
 - Tessa Alexanian
 - Simon Grimm
 - Seth Donoughe
 - Jeff Kaufman
 - Jacob Swett
-- Andrew Snyder-Beattie 
+- Andrew Snyder-Beattie
 - Brian Wang
+- Byron Cohen
 
 Communities to consider joining:
 - [Nordic Biosecurity Group](https://nordicbiosecuritygroup.org/) (extensive resources)
@@ -100,7 +101,9 @@ Try wild things. [Improve existing tools](https://github.com/jackdougle/nucleaze
 
 ## Join research
 
-Work with existing groups: join a lab, apply to sprints like [Apart Research's CBRN AI Sprint](https://apartresearch.com/sprints/cbrn-ai-risks-sprint-2025-09-12-to-2025-09-14), or contribute to [open-source pipelines](https://github.com/securebio/nao-mgs-workflow).
+Work with existing groups: join a lab, apply to sprints like [Apart Research's CBRN AI Sprint](https://apartresearch.com/sprints/cbrn-ai-risks-sprint-2025-09-12-to-2025-09-14)[^4], or contribute to [open-source pipelines](https://github.com/securebio/nao-mgs-workflow).
+
+[^4]: As of writing, another upcoming sprint is the [Defensive Acceleration Hackathon](https://apartresearch.com/sprints/def-acc-hackathon-2025-11-21-to-2025-11-23) (November 21-23, 2025).
 
 Professors interested in biosecurity:
 - Kevin Esvelt
