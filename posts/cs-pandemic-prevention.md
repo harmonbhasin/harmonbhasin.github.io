@@ -70,7 +70,7 @@ For structured guidance on entering biosecurity, I would start with ["Preventing
 
 ## Follow the field
 
-People to follow on Twitter, their personal blogs/Substacks, or the [EA Forum](https://forum.effectivealtruism.org/?tab=biosecurity):
+People to follow on Twitter, LinkedIn, their personal blogs/Substacks, or the [EA Forum](https://forum.effectivealtruism.org/?tab=biosecurity):
 - Tessa Alexanian
 - Simon Grimm
 - Seth Donoughe
@@ -79,6 +79,8 @@ People to follow on Twitter, their personal blogs/Substacks, or the [EA Forum](h
 - Andrew Snyder-Beattie
 - Brian Wang
 - Byron Cohen
+- Sofya Lebedeva
+- Joshua Teperowski Monrad
 
 Communities to consider joining:
 - [Nordic Biosecurity Group](https://nordicbiosecuritygroup.org/) (extensive resources)
