@@ -4,7 +4,7 @@ Thinking about:
 
 - aixbio
 - biosecurity
-- mlsys/compiler optimization
+- ml systems/compilers
 
 Wanna chat? Reach out to me at [harmonsbhasin@gmail.com](mailto:harmonsbhasin@gmail.com).
 
