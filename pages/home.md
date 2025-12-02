@@ -2,9 +2,9 @@ I work as the Co-Founder/CTO at a [Y Combinator](https://www.ycombinator.com/) b
 
 Thinking about:
 
-- MLSys
-- Compiler optimization
-- Hardware & chip design
+- aixbio
+- biosecurity
+- mlsys/compiler optimization
 
 Wanna chat? Reach out to me at [harmonsbhasin@gmail.com](mailto:harmonsbhasin@gmail.com).
 
